@@ -1,0 +1,13 @@
+div {
+    align-items: center;
+    align-content: center;
+
+}
+
+body {
+    padding-left: 5%;
+    background-color: lightcyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
