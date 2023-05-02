@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta charset="UTF-8">
+    <title> Numbers Are Fun! </title>
+    <script src="exercise15.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Numbers Are Fun!</h1>
+    </header>
+
+    <form>
+        <label for="myInputBox">Enter your number (n):</label> 
+        <br>
+        <input type="number" id="myInputBox" name="myInputBox">
+        <br><br>
+    </form>
+    <div class="series">
+        <div> 
+            <h2>First Series</h2>
+            <h3>F<sub>n</sub> = n * n</h3>
+            <button onclick="firstSeries()"> Calculate </button>
+            <h4>Results:</h4>
+            <pre id="outputFirst"></pre>
+        </div>     
+
+        <div> 
+            <h2>Second Series</h2>
+            <h3>F<sub>n</sub> = F<sub>n-1</sub> * 2; F<sub>1</sub> = 1</h3>
+            <button onclick="secondSeries()"> Calculate </button>
+            <h4>Results:</h4>
+            <pre id="outputSecond"></pre>
+        </div>
+        
+        <div> 
+            <h2>Third Series</h2>
+            <h3>F<sub>n</sub> = F<sub>n-1</sub> + F<sub>n-2</sub>; F<sub>1</sub> = F<sub>2</sub> = 1</h3>
+            <button onclick="thirdSeries()"> Calculate</button>
+            <h4>Results:</h4>
+            <pre id="outputThird"></pre>
+        </div>
+        
+        <div>
+            <h2>Fourth Series</h2>
+            <h3>F<sub>n</sub> = nth prime number; F<sub>1</sub> = 2</h3>
+            <button onclick="fourthSeries()"> Calculate</button>
+            <h4>Results:</h4>
+            <pre id="outputFourth"></pre>
+        </div>
+    </div>
+
+</body>
+
+</html>

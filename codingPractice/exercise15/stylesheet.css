@@ -1,0 +1,16 @@
+.series {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 2em;
+    row-gap: 2em; 
+}
+
+  body {
+    overflow: hidden;
+    background: linear-gradient(to bottom, #ffcccc, #ffb3b3, #ff9999);
+    min-height: 100vh;    
+    padding-left: 5%;
+    padding-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
