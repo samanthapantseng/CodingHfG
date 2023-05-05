@@ -6,7 +6,7 @@
     row-gap: 2em; 
 }
 
-  body {
+body {
     overflow: hidden;
     background: linear-gradient(to bottom, #ffcccc, #ffb3b3, #ff9999);
     min-height: 100vh;    
